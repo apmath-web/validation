@@ -1,3 +1,3 @@
-package com.apmath.validation.basics.exceptions
+package com.apmath.validation.simple.exceptions
 
 class IncorrectContinueVaidationOrderCallException() : RuntimeException()

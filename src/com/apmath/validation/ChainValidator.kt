@@ -1,4 +1,7 @@
-package com.apmath.validation.basics
+package com.apmath.validation
+
+import com.apmath.validation.simple.AbstractValidator
+import com.apmath.validation.simple.ValidatorInterface
 
 class ChainValidator(
     private val validators: List<ValidatorInterface>

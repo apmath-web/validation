@@ -1,9 +1,9 @@
 package com.apmath.validation
 
-import com.apmath.validation.basics.AbstractValidator
-import com.apmath.validation.basics.MessageInterface
-import com.apmath.validation.basics.ValidatorInterface
-import com.apmath.validation.basics.exceptions.MemberNotFoundException
+import com.apmath.validation.simple.AbstractValidator
+import com.apmath.validation.simple.MessageInterface
+import com.apmath.validation.simple.ValidatorInterface
+import com.apmath.validation.simple.exceptions.MemberNotFoundException
 
 class ObjectValidator(
     private val validators: Map<String, ValidatorInterface>

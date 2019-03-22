@@ -1,6 +1,6 @@
-package com.apmath.validation.basics.builders
+package com.apmath.validation.simple.builders
 
-import com.apmath.validation.basics.ValidatorInterface
+import com.apmath.validation.simple.ValidatorInterface
 
 interface ChainValidatorBuilderInterface {
     fun append(validator: ValidatorInterface): ChainValidatorBuilderInterface

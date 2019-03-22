@@ -1,6 +1,6 @@
-package com.apmath.validation.basics
+package com.apmath.validation.simple
 
-import com.apmath.validation.basics.exceptions.IncorrectContinueVaidationOrderCallException
+import com.apmath.validation.simple.exceptions.IncorrectContinueVaidationOrderCallException
 
 
 abstract class AbstractValidator(

@@ -1,4 +1,4 @@
-package com.apmath.validation.basics
+package com.apmath.validation.simple
 
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter

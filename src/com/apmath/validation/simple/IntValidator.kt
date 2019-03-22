@@ -1,4 +1,4 @@
-package com.apmath.validation.basics
+package com.apmath.validation.simple
 
 class IntValidator(
     private val min: Int = Int.MIN_VALUE,

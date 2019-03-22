@@ -1,4 +1,4 @@
-package com.apmath.validation.basics
+package com.apmath.validation.simple
 
 class NullableValidator(
     private val mustBeNull: Boolean = false

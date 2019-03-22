@@ -1,7 +1,7 @@
-package com.apmath.validation.basics.builders
+package com.apmath.validation.simple.builders
 
-import com.apmath.validation.basics.ChainValidator
-import com.apmath.validation.basics.ValidatorInterface
+import com.apmath.validation.simple.ChainValidator
+import com.apmath.validation.simple.ValidatorInterface
 
 class ChainValidatorBuilder : ChainValidatorBuilderInterface {
     private val validators: MutableList<ValidatorInterface> = arrayListOf()
