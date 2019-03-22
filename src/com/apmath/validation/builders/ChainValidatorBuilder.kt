@@ -1,6 +1,6 @@
-package com.apmath.validation.simple.builders
+package com.apmath.validation.builders
 
-import com.apmath.validation.simple.ChainValidator
+import com.apmath.validation.ChainValidator
 import com.apmath.validation.simple.ValidatorInterface
 
 class ChainValidatorBuilder : ChainValidatorBuilderInterface {

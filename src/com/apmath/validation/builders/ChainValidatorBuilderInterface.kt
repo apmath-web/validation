@@ -1,4 +1,4 @@
-package com.apmath.validation.simple.builders
+package com.apmath.validation.builders
 
 import com.apmath.validation.simple.ValidatorInterface
 
