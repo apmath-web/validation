@@ -3,21 +3,21 @@ package com.apmath.validation.simple
 import com.apmath.validation.simple.exceptions.InvalidArgumentException
 
 // todo use templates
-class IntValidator(
-    private val lessThan: Int? = null,
-    private val moreThan: Int? = null,
-    private val lessThanEquals: Int? = null,
-    private val moreThanEquals: Int? = null
+class LongValidator(
+    private val lessThan: Long? = null,
+    private val moreThan: Long? = null,
+    private val lessThanEquals: Long? = null,
+    private val moreThanEquals: Long? = null
 ) : AbstractValidator() {
 
     override fun validate(value: Any?): Boolean {
         isValid = true
 
-        val coerced: Int
+        val coerced: Long
         try {
-            coerced = value as Int
+            coerced = value as Long
         } catch (e: ClassCastException) {
-            throw InvalidArgumentException("Must be a valid Int")
+            throw InvalidArgumentException("Must be a valid Long")
         }
 
         when {
