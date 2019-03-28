@@ -15,8 +15,8 @@ class StringValidator(
         }
 
         when {
-            minLen != null && value.length < minLen -> addMessage("Must contain more than $minLen symbols")
-            maxLen != null && value.length > maxLen -> addMessage("Must contain less than $minLen symbols")
+            minLen != null && value.length < minLen -> addMessage("Must contain $minLen symbols at least")
+            maxLen != null && value.length > maxLen -> addMessage("Must contain $maxLen symbols at most")
         }
 
         return isValid!!
