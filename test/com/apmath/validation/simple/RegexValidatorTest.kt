@@ -27,8 +27,9 @@ class RegexValidatorTest {
         val result = validator.validate("923a4898124")
 
         // then
-        assertTrue(result)
-        assertEquals(0, validator.messages.size)
+        assertFalse(result)
+        assertEquals(1, validator.messages.size)
+        assertEquals("Must match regex: ^[0-9]+\$", validator.messages[0].message)
     }
 
     @Test
