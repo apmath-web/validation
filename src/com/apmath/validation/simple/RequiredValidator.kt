@@ -7,8 +7,6 @@ class RequiredValidator: AbstractValidator() {
 
         if (value == null) {
             addMessage("Must be not null")
-
-            return false
         }
 
         return isValid!!
