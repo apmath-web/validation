@@ -5,7 +5,7 @@ import com.apmath.validation.simple.MessageInterface
 import com.apmath.validation.simple.ValidatorInterface
 import com.apmath.validation.simple.exceptions.MemberNotFoundException
 
-open class ObjectValidator(
+class ObjectValidator(
     private val validators: Map<String, ValidatorInterface>
 ): AbstractValidator() {
 

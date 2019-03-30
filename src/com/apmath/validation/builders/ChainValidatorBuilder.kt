@@ -3,7 +3,7 @@ package com.apmath.validation.builders
 import com.apmath.validation.ChainValidator
 import com.apmath.validation.simple.ValidatorInterface
 
-class ChainValidatorBuilder : ChainValidatorBuilderInterface {
+open class ChainValidatorBuilder : ChainValidatorBuilderInterface {
     private val validators: MutableList<ValidatorInterface> = arrayListOf()
 
     override fun append(validator: ValidatorInterface): ChainValidatorBuilder {

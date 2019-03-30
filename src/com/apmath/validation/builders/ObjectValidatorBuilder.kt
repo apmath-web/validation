@@ -3,7 +3,7 @@ package com.apmath.validation.builders
 import com.apmath.validation.ObjectValidator
 import com.apmath.validation.simple.ValidatorInterface
 
-class ObjectValidatorBuilder {
+open class ObjectValidatorBuilder {
     private val chains: MutableMap<String, ChainValidatorBuilderInterface> = hashMapOf()
 
     fun append(field: String, validator: ValidatorInterface): ObjectValidatorBuilder {
